@@ -33,7 +33,7 @@ const filterData = () => {
       const statusA = a.status.toLowerCase();
       const statusB = b.status.toLowerCase();
   
-      const orderA = order[statusA] || 3; // Assign a higher order for other statuses
+      const orderA = order[statusA] || 3; // Assigning a higher order for other statuses
       const orderB = order[statusB] || 3;
   
       return orderA - orderB;
